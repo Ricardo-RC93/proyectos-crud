@@ -2,7 +2,6 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router";
 import "./assets/style.css";
-import App from "./App.jsx";
 import Colegio from "./Colegio.jsx";
 import VentasAxios from "./VentasAxios.jsx";
 import Libreria from "./Libreria.jsx";
