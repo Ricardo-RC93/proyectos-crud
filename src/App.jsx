@@ -5,7 +5,7 @@ function App() {
     {
       nombre: "Sistema de Ventas",
       descripcion: "Gestión completa de ventas y productos",
-      ruta: "/ventas",
+      ruta: "/proyectos/ventas",
       icono: (
         <svg
           className="w-7 h-7 sm:w-8 sm:h-8"
@@ -28,7 +28,7 @@ function App() {
     {
       nombre: "Gestión Colegio",
       descripcion: "Administración de estudiantes y datos académicos",
-      ruta: "/colegio",
+      ruta: "/proyectos/colegio",
       icono: (
         <svg
           className="w-7 h-7 sm:w-8 sm:h-8"
@@ -51,7 +51,7 @@ function App() {
     {
       nombre: "Sistema Librería",
       descripcion: "Control de inventario y catálogo de libros",
-      ruta: "/libreria",
+      ruta: "/proyectos/libreria",
       icono: (
         <svg
           className="w-7 h-7 sm:w-8 sm:h-8"
@@ -74,7 +74,7 @@ function App() {
     {
       nombre: "Gestión de Libros",
       descripcion: "CRUD completo para administración de libros",
-      ruta: "/libros",
+      ruta: "/proyectos/libros",
       icono: (
         <svg
           className="w-7 h-7 sm:w-8 sm:h-8"
@@ -97,7 +97,7 @@ function App() {
     {
       nombre: "Ventas Axios",
       descripcion: "Sistema de ventas con integración API",
-      ruta: "/ventas-axios",
+      ruta: "/proyectos/ventas-axios",
       icono: (
         <svg
           className="w-7 h-7 sm:w-8 sm:h-8"
@@ -120,7 +120,7 @@ function App() {
     {
       nombre: "Ventas CRUD",
       descripcion: "Operaciones completas de ventas",
-      ruta: "/ventas-crud",
+      ruta: "/proyectos/ventas-crud",
       icono: (
         <svg
           className="w-7 h-7 sm:w-8 sm:h-8"
