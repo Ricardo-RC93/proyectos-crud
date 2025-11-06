@@ -42,7 +42,7 @@ const PortafolioLayout = () => {
   // Pantalla de carga moderna y profesional
   if (cargando) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center relative overflow-hidden">
+      <div className="min-h-screen bg-linear-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center relative overflow-hidden">
         {/* Partículas animadas de fondo */}
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute w-96 h-96 bg-purple-500/20 rounded-full blur-3xl animate-pulse top-10 -left-20"></div>
@@ -53,16 +53,16 @@ const PortafolioLayout = () => {
         <div className="text-center z-10 px-4">
           {/* Logo/Avatar con animación */}
           <div className="relative w-32 h-32 mx-auto mb-8">
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 rounded-full animate-spin-slow"></div>
+            <div className="absolute inset-0 bg-linear-to-r from-blue-600 via-purple-600 to-pink-600 rounded-full animate-spin-slow"></div>
             <div className="absolute inset-1 bg-slate-900 rounded-full flex items-center justify-center">
-              <div className="w-24 h-24 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white text-4xl font-bold shadow-2xl">
+              <div className="w-24 h-24 bg-linear-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-white text-4xl font-bold shadow-2xl">
                 RR
               </div>
             </div>
           </div>
 
           {/* Nombre con efecto de aparición */}
-          <h2 className="text-4xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 mb-4 animate-fade-in">
+          <h2 className="text-4xl sm:text-5xl font-bold text-transparent bg-clip-text bg-linear-to-r from-blue-400 via-purple-400 to-pink-400 mb-4 animate-fade-in">
             Ricardo Reyes
           </h2>
 
@@ -74,10 +74,10 @@ const PortafolioLayout = () => {
           <div className="max-w-md mx-auto mb-6">
             <div className="relative h-2 bg-slate-800 rounded-full overflow-hidden shadow-inner">
               <div
-                className="absolute h-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full transition-all duration-300 ease-out shadow-lg"
+                className="absolute h-full bg-linear-to-r from-blue-500 via-purple-500 to-pink-500 rounded-full transition-all duration-300 ease-out shadow-lg"
                 style={{ width: `${progreso}%` }}
               >
-                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/30 to-transparent animate-shimmer"></div>
+                <div className="absolute inset-0 bg-linear-to-r from-transparent via-white/30 to-transparent animate-shimmer"></div>
               </div>
             </div>
             <p className="text-center text-purple-300 mt-3 text-sm font-semibold">
@@ -99,7 +99,7 @@ const PortafolioLayout = () => {
         </div>
 
         {/* Efecto de grid en el fondo */}
-        <div className="absolute inset-0 bg-[linear-gradient(rgba(139,92,246,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(139,92,246,0.03)_1px,transparent_1px)] bg-[size:50px_50px] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_50%,black,transparent)]"></div>
+        <div className="absolute inset-0 bg-[linear-gradient(rgba(139,92,246,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(139,92,246,0.03)_1px,transparent_1px)] bg-size-[50px_50px] mask-[radial-gradient(ellipse_80%_50%_at_50%_50%,black,transparent)]"></div>
       </div>
     );
   }
@@ -131,7 +131,7 @@ const PortafolioLayout = () => {
             <div className="flex items-center gap-3 sm:gap-4">
               <div className="relative shrink-0">
                 <div
-                  className={`bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-600 p-1 rounded-full shadow-xl transition-all duration-300 ${
+                  className={`bg-linear-to-br from-blue-600 via-indigo-600 to-purple-600 p-1 rounded-full shadow-xl transition-all duration-300 ${
                     scrolled ? "w-12 h-12" : "w-14 h-14 sm:w-16 sm:h-16"
                   }`}
                 >
@@ -177,7 +177,7 @@ const PortafolioLayout = () => {
                   className={({ isActive }) =>
                     `px-4 py-2 rounded-lg font-semibold transition-all duration-300 flex items-center gap-2 ${
                       isActive
-                        ? "bg-gradient-to-r from-indigo-600 to-purple-600 text-white shadow-lg"
+                        ? "bg-linear-to-r from-indigo-600 to-purple-600 text-white shadow-lg"
                         : "text-gray-700 hover:bg-indigo-50 hover:text-indigo-600"
                     }`
                   }
@@ -242,7 +242,7 @@ const PortafolioLayout = () => {
                   className={({ isActive }) =>
                     `px-4 py-3 rounded-lg font-semibold transition-all duration-300 flex items-center gap-3 ${
                       isActive
-                        ? "bg-gradient-to-r from-indigo-600 to-purple-600 text-white shadow-lg transform scale-105"
+                        ? "bg-linear-to-r from-indigo-600 to-purple-600 text-white shadow-lg transform scale-105"
                         : "text-gray-700 hover:bg-indigo-50 hover:text-indigo-600"
                     }`
                   }
