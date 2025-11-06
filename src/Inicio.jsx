@@ -16,7 +16,7 @@ const Inicio = () => {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-gray-50 to-zinc-50">
+    <div className="min-h-screen bg-linear-to-br from-slate-50 via-gray-50 to-zinc-50">
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-linear-to-r from-blue-600 via-indigo-600 to-purple-600 text-white">
         <div className="absolute inset-0 bg-black opacity-10"></div>
@@ -251,7 +251,7 @@ const Inicio = () => {
       {/* CTA Section */}
       <section
         id="proyectos"
-        className="py-16 bg-gradient-to-r from-indigo-600 to-purple-600 text-white"
+        className="py-16 bg-linear-to-r from-indigo-600 to-purple-600 text-white"
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6">

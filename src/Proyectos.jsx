@@ -70,7 +70,7 @@ const Proyectos = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-gray-50 to-zinc-50 py-12 sm:py-16 lg:py-20">
+    <div className="min-h-screen bg-linear-to-br from-slate-50 via-gray-50 to-zinc-50 py-12 sm:py-16 lg:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12 sm:mb-16">
@@ -147,7 +147,7 @@ const Proyectos = () => {
                     <span className="text-sm font-semibold text-gray-500 group-hover:text-indigo-600 transition-colors">
                       Ver Proyecto
                     </span>
-                    <div className="bg-gradient-to-r from-indigo-500 to-purple-500 text-white p-2 rounded-lg group-hover:from-indigo-600 group-hover:to-purple-600 transition-all">
+                    <div className="bg-linear-to-r from-indigo-500 to-purple-500 text-white p-2 rounded-lg group-hover:from-indigo-600 group-hover:to-purple-600 transition-all">
                       <svg
                         className="w-5 h-5"
                         fill="none"
@@ -170,7 +170,7 @@ const Proyectos = () => {
         </div>
 
         {/* Bottom CTA */}
-        <div className="mt-16 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-2xl shadow-xl p-8 sm:p-12 text-center text-white">
+        <div className="mt-16 bg-linear-to-r from-indigo-600 to-purple-600 rounded-2xl shadow-xl p-8 sm:p-12 text-center text-white">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">
             ¿Tienes un proyecto en mente?
           </h2>

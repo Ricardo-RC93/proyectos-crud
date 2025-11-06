@@ -66,14 +66,14 @@ const SobreMi = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-gray-50 to-zinc-50">
+    <div className="min-h-screen bg-linear-to-br from-slate-50 via-gray-50 to-zinc-50">
       {/* Hero Section */}
       <section className="relative bg-linear-to-r from-indigo-600 via-purple-600 to-pink-600 text-white py-20 sm:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row items-center gap-12">
             {/* Foto */}
             <div className="relative">
-              <div className="w-48 h-48 sm:w-64 sm:h-64 rounded-full bg-gradient-to-br from-white/20 to-white/5 p-2">
+              <div className="w-48 h-48 sm:w-64 sm:h-64 rounded-full bg-linear-to-br from-white/20 to-white/5 p-2">
                 <img
                   src="/foto.png"
                   alt="Ricardo Andrés Reyes Casanova"
@@ -166,7 +166,7 @@ const SobreMi = () => {
             {valores.map((valor, index) => (
               <div
                 key={index}
-                className="bg-gradient-to-br from-indigo-50 to-purple-50 p-8 rounded-xl text-center hover:shadow-xl transition-all duration-300 transform hover:scale-105"
+                className="bg-linear-to-br from-indigo-50 to-purple-50 p-8 rounded-xl text-center hover:shadow-xl transition-all duration-300 transform hover:scale-105"
               >
                 <div className="text-5xl mb-4">{valor.icon}</div>
                 <h3 className="text-xl font-bold text-gray-800 mb-2">
@@ -195,7 +195,7 @@ const SobreMi = () => {
               </div>
               <div className="w-full bg-gray-200 rounded-full h-3">
                 <div
-                  className="bg-gradient-to-r from-blue-500 to-indigo-600 h-3 rounded-full"
+                  className="bg-linear-to-r from-blue-500 to-indigo-600 h-3 rounded-full"
                   style={{ width: "90%" }}
                 ></div>
               </div>
@@ -209,7 +209,7 @@ const SobreMi = () => {
               </div>
               <div className="w-full bg-gray-200 rounded-full h-3">
                 <div
-                  className="bg-gradient-to-r from-yellow-400 to-yellow-600 h-3 rounded-full"
+                  className="bg-linear-to-r from-yellow-400 to-yellow-600 h-3 rounded-full"
                   style={{ width: "85%" }}
                 ></div>
               </div>
@@ -223,7 +223,7 @@ const SobreMi = () => {
               </div>
               <div className="w-full bg-gray-200 rounded-full h-3">
                 <div
-                  className="bg-gradient-to-r from-green-400 to-green-600 h-3 rounded-full"
+                  className="bg-linear-to-r from-green-400 to-green-600 h-3 rounded-full"
                   style={{ width: "80%" }}
                 ></div>
               </div>
@@ -239,7 +239,7 @@ const SobreMi = () => {
               </div>
               <div className="w-full bg-gray-200 rounded-full h-3">
                 <div
-                  className="bg-gradient-to-r from-cyan-400 to-cyan-600 h-3 rounded-full"
+                  className="bg-linear-to-r from-cyan-400 to-cyan-600 h-3 rounded-full"
                   style={{ width: "88%" }}
                 ></div>
               </div>
@@ -253,7 +253,7 @@ const SobreMi = () => {
               </div>
               <div className="w-full bg-gray-200 rounded-full h-3">
                 <div
-                  className="bg-gradient-to-r from-emerald-400 to-emerald-600 h-3 rounded-full"
+                  className="bg-linear-to-r from-emerald-400 to-emerald-600 h-3 rounded-full"
                   style={{ width: "75%" }}
                 ></div>
               </div>
@@ -269,7 +269,7 @@ const SobreMi = () => {
               </div>
               <div className="w-full bg-gray-200 rounded-full h-3">
                 <div
-                  className="bg-gradient-to-r from-gray-600 to-gray-800 h-3 rounded-full"
+                  className="bg-linear-to-r from-gray-600 to-gray-800 h-3 rounded-full"
                   style={{ width: "82%" }}
                 ></div>
               </div>
@@ -279,7 +279,7 @@ const SobreMi = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-gradient-to-r from-indigo-600 to-purple-600 text-white">
+      <section className="py-16 bg-linear-to-r from-indigo-600 to-purple-600 text-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6">
             ¿Trabajamos juntos?

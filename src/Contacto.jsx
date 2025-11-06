@@ -92,7 +92,7 @@ const Contacto = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-gray-50 to-zinc-50 py-12 sm:py-16 lg:py-20">
+    <div className="min-h-screen bg-linear-to-br from-slate-50 via-gray-50 to-zinc-50 py-12 sm:py-16 lg:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-12 sm:mb-16">
@@ -120,7 +120,9 @@ const Contacto = () => {
               >
                 <div className="text-4xl mb-3">{metodo.icon}</div>
                 <h3 className="font-bold text-lg mb-2">{metodo.titulo}</h3>
-                <p className="text-sm opacity-90 break-words">{metodo.valor}</p>
+                <p className="text-sm opacity-90 wrap-break-word">
+                  {metodo.valor}
+                </p>
                 <div className="mt-4 flex items-center text-sm font-semibold">
                   <span>Contactar</span>
                   <svg
@@ -243,7 +245,7 @@ const Contacto = () => {
               {/* Botón */}
               <button
                 type="submit"
-                className="w-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-4 rounded-lg font-bold hover:from-indigo-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center gap-2"
+                className="w-full bg-linear-to-r from-indigo-600 to-purple-600 text-white py-4 rounded-lg font-bold hover:from-indigo-700 hover:to-purple-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:scale-105 flex items-center justify-center gap-2"
               >
                 <svg
                   className="w-5 h-5"
@@ -266,7 +268,7 @@ const Contacto = () => {
           {/* Información Adicional */}
           <div className="space-y-8">
             {/* Ubicación */}
-            <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 sm:p-8">
+            <div className="bg-linear-to-br from-blue-50 to-indigo-50 rounded-2xl p-6 sm:p-8">
               <div className="flex items-start gap-4">
                 <div className="bg-indigo-100 p-4 rounded-xl">
                   <svg
@@ -303,7 +305,7 @@ const Contacto = () => {
             </div>
 
             {/* Disponibilidad */}
-            <div className="bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-6 sm:p-8">
+            <div className="bg-linear-to-br from-green-50 to-emerald-50 rounded-2xl p-6 sm:p-8">
               <div className="flex items-start gap-4">
                 <div className="bg-green-100 p-4 rounded-xl">
                   <svg
@@ -334,7 +336,7 @@ const Contacto = () => {
             </div>
 
             {/* Servicios */}
-            <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-6 sm:p-8">
+            <div className="bg-linear-to-br from-purple-50 to-pink-50 rounded-2xl p-6 sm:p-8">
               <div className="flex items-start gap-4">
                 <div className="bg-purple-100 p-4 rounded-xl">
                   <svg
@@ -368,7 +370,7 @@ const Contacto = () => {
         </div>
 
         {/* CTA Final */}
-        <div className="mt-16 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-2xl shadow-xl p-8 sm:p-12 text-center text-white">
+        <div className="mt-16 bg-linear-to-r from-indigo-600 to-purple-600 rounded-2xl shadow-xl p-8 sm:p-12 text-center text-white">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">
             ¿Prefieres contactarme directamente?
           </h2>
