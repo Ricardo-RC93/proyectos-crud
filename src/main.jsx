@@ -9,10 +9,13 @@ import LibrosNuevo from "./LibrosNuevo.jsx";
 import Ventas from "./Ventas.jsx";
 import VentasCrud from "./VentasCrud.jsx";
 import PortafolioLayout from "./layouts/PortafolioLayout.jsx";
-import Inicio from "./inicio.jsx";
+import Inicio from "./Inicio.jsx";
 import Contacto from "./Contacto.jsx";
 import Proyectos from "./Proyectos.jsx";
 import SobreMi from "./SobreMi.jsx";
+import IndexProducts from "./pages/products/Index.jsx";
+import EditProduct from "./pages/products/Edit.jsx";
+import CreateProduct from "./pages/products/Create.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -31,6 +34,11 @@ createRoot(document.getElementById("root")).render(
           <Route path="libros" element={<LibrosNuevo />} />
           <Route path="ventas" element={<Ventas />} />
           <Route path="ventas-crud" element={<VentasCrud />} />
+        </Route>
+        <Route path="products">
+          <Route index element={<IndexProducts />} />
+          <Route path="edit/:id" element={<EditProduct />} />
+          <Route path="create" element={<CreateProduct />} />
         </Route>
       </Routes>
     </BrowserRouter>
